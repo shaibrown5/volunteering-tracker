@@ -3,7 +3,7 @@ import {Text, TextInput, View} from 'react-native';
 import styles from './home.scss';
 
 const Home = () => {
-  const [hours, sethours] = useState(-1);
+  const [hours, setHours] = useState(-1);
   const [place, setPlace] = useState('');
 
   return (
